@@ -2,7 +2,8 @@
 Title: Diesel_Multi_Var_In_Multi_Var_Out
 
 Description: Runs a prediction of all variables of fuel from all variables 
-  in the US EIA data 
+  in the US EIA data. Evaluated on the prediction of D1 (Diesel price)
+  prediction. 
   Original Source: https://www.eia.gov/dnav/pet/pet_pri_gnd_dcus_nus_w.htm
 
 Usage: Run direct from IDE

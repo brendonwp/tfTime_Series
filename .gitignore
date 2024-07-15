@@ -1,0 +1,12 @@
+# Ignore all .log files
+*.log
+
+# Ignore the data directory
+data/ 
+
+# Ignore all .env files
+*.env
+
+# Ignore a specific file
+# secret.txt
+
