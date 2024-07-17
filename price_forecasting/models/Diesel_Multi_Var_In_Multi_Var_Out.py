@@ -8,7 +8,7 @@ Description: Runs a prediction of all variables of fuel from all variables
 
 Usage: Run direct from IDE
 
-Arguments: n/a Data location is hardcoded
+Arguments: n/a Data location is set relative to the current directory
 
 Functions: 
 
