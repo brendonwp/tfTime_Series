@@ -1,56 +1,33 @@
-# ==============================================================================
-#
-# TIME SERIES QUESTION
-#
-# Build and train a neural network to predict time indexed variables of
-# the multivariate house hold electric power consumption time series dataset.
-# Using a window of past 24 observations of the 7 variables, the model
-# should be trained to predict the next 24 observations of the 7 variables.
-#
-# ==============================================================================
-#
-# ABOUT THE DATASET
-#
-# Original Source:
-# https://archive.ics.uci.edu/ml/datasets/individual+household+electric+power+consumption
-#
-# The original Individual House Hold Electric Power Consumption Dataset
-# has Measurements of electric power consumption in one household with
-# a one-minute sampling rate over a period of almost 4 years.
-#
-# Different electrical quantities and some sub-metering values are available.
-#
-# For the purpose of the examination we have provided a subset containing
-# the data for the first 60 days in the dataset. We have also cleaned the
-# dataset beforehand to remove missing values. The dataset is provided as a
-# CSV file in the project.
-#
-# The dataset has a total of 7 features ordered by time.
-# ==============================================================================
-
 """
 Title: Power_Multi_Var_In_Multi_Var_Out
 
-Description: Runs a prediction of all variables of power consumption 
-   from all input variables 
-  Original Source:
-    https://archive.ics.uci.edu/ml/datasets/individual+household+electric+power+consumption
+Description: Runs a prediction of all variables of household power consumption
+  from all variables in the Individual Household Electric Power Consumption Dataset.
+  This dataset has Measurements of electric power consumption in one household with
+  a one-minute sampling rate over a period of almost 4 years.
+
+  Different electrical quantities and some sub-metering values are available.
+
+  Original Data Source:
+  https://archive.ics.uci.edu/ml/datasets/individual+household+electric+power+consumption
+
+  The URL points to a subset containing the data for the first 60 days in the dataset.
+  The dataset has a total of 7 features ordered by time.
 
 Usage: Run direct from IDE
 
-Arguments: n/a 
+Arguments: n/a Data location is set relative to the current directory
 
-Functions: 
+Functions:
 
-Classes: 
+Classes:
 
-Examples:
+Examples: n / a
 
-Author: Brendon Wolff-Piggott 
+Author: Brendon Wolff-Piggott
 
-Date: 7 June 2024 
+Date: 17 July 2024
 """
-
 
 import urllib
 import zipfile
